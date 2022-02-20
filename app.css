@@ -1,0 +1,92 @@
+body {
+    background-image: url('https://images.template.net/wp-content/uploads/2016/04/23095938/Chalkboard-Backgrounds.jpg');
+    /* background-repeat: no-repat; */
+    height: 100vh;
+    background-size: cover;
+}
+
+.memed {
+    text-align: center;
+    position: relative;
+    margin-top: 5%;
+
+
+}
+
+.imgs {
+    position: relative;
+    object-fit: cover;
+    z-index: -5;
+    max-width: 500px;
+    max-height: 500px;
+    border: 10px solid black;
+    
+}
+
+.text {
+    position: absolute;
+    top: 0px;
+    margin-top: 0%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    width: 25%;
+    margin-left: 37.5%;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 0 black;
+
+
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    width: 25%;
+    margin-left: 37.5%;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 0 black;
+
+
+}
+
+.delete {
+    margin: 0;
+    position: absolute;
+    /* width: 10%;
+    height: 10%; */
+    background-color: black;
+    font-size: 30px;
+    top: 0%;
+    color: red
+    /* left: 15%; */
+    
+    
+    /* margin-left: 37.5%; */
+}
+
+form {
+    color: aliceblue;
+}
+
+h1 {
+    font-family: 'Callie Chalk Font', sans-serif;
+    color: whitesmoke;
+}
+
+
+
+
+/* .delete {
+    visibility: visible;
+}
+
+.imgs {
+    opacity: 0.5;
+} */
